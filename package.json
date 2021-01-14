@@ -1,0 +1,33 @@
+{
+  "name": "ww-download-git-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production rollup -c",
+    "serve": "cross-env NODE_ENV=development rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/background-position/ww-download-git-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/background-position/ww-download-git-repo/issues"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "cross-env": "^7.0.3",
+    "rollup": "^2.35.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-typescript2": "^0.29.0"
+  },
+  "homepage": "https://github.com/background-position/ww-download-git-repo#readme",
+  "dependencies": {
+    "download": "^8.0.0"
+  }
+}
